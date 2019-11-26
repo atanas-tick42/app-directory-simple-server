@@ -1,0 +1,24 @@
+[
+    {
+        "title": "ClickOnce - Deployed",
+        "type": "clickonce",
+        "name": "click-once-deployed",
+        "hidden": false,
+        "details": {
+            "url": "http://enterprise.glue42.com/install/enterprise/demos/ClickOnce/MyClickOnceApp.application",
+            "width": 1000,
+            "height": 400,
+            "trackingType": "None",
+            "urlParameters": [
+                {
+                    "name": "p1",
+                    "value": "customParameter"
+                }
+            ]
+        },
+        "customProperties": {
+            "includeInCanvas": true,
+            "appManagerOrder": 2
+        }
+    }
+]

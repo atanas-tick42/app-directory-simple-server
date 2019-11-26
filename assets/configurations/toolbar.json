@@ -1,0 +1,32 @@
+{
+    "title": "Vanilla Toolbar",
+    "type": "window",
+    "name": "vanilla-toolbar",
+    "ignoreSavedLayout": true,
+    "autoStart": true,
+    "shell": true,
+    "details": {
+        "url": "http://localhost:22080/vanilla-toolbar",
+        "mode":"html",
+        "isSticky": false,
+        "top": 5,
+        "left": 5,
+        "width": 500,
+        "height": 400,
+        "visibleAreas": [
+            {
+                "top": 0,
+                "left": 0,
+                "width": 60,
+                "height": 400
+            }
+        ],
+        "allowCollapse": false,
+        "allowClose": false,
+        "allowMaximize": false,
+        "allowMinimize": false
+    },
+    "customProperties": {
+        "appManagerOrder": 9
+    }
+}

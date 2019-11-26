@@ -1,0 +1,15 @@
+[
+	{
+        "title": "REST server",
+        "type": "node",
+        "name": "rest-server",
+		"hidden": true,
+		"service": true,
+        "details": {
+            "path": "%GDDIR%/../Demos/Web/excelpad-server/index.js",
+			"parameters": "",
+			"showConsole": false
+        },
+        "autoStart": true
+    }
+]

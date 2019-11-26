@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Role Editor</title>
+  <link rel="stylesheet" href="../t42bootstrap.bundle.css">
+  <style>
+    .role {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="">
+  <nav class="navbar navbar-light bg-light sticky-top">
+    <div class="navbar-brand h1">
+      Users' role editor
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <div class="btn btn-primary mr-2">Add User</div>
+      <a href="../apps-role-editor/" class="btn btn-outline-primary">Apps for Role</a>
+    </form>
+  </nav>
+  <div class="container">
+    <ul class="users">
+      <li class="d-none mt-4 user row">
+        <div class="col-4 text-center align-middle font-weight-bold username d-flex flex-column justify-content-center">
+
+        </div>
+        <div class="col-7">
+          <ul class="list-group roles">
+            <li class="list-group-item role">
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

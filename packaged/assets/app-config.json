@@ -1,0 +1,50 @@
+{
+  "appReader": {
+    "type": "file",
+    "config": {
+      "folder": "./configurations"
+    }
+  },
+  "appFilter2": {
+    "type": "SQLite",
+    "config": {
+      "db": "dbs/LDAP-roles-and-applications.db"
+    }
+  },
+  "appFilter": {
+    "type": "SQLite",
+    "config": {
+      "db": "dbs/rules.db",
+      "defaultApps": [
+        "vanilla-toolbar",
+        "embeddedAppShell",
+        "toolbar",
+        "Tick42GNSUI",
+        "start.gns.dm",
+        "GNSrestpublisher",
+        "js-gns-dialog-panel",
+        "gss-js-dm",
+        "rest-server",
+        "CanvasManager",
+        "CanvasDetails",
+        "canvas-demo"
+      ]
+    }
+  },
+  "roleReader2": {
+    "type": "ActiveDirectory",
+    "config": {
+
+    }
+  },
+  "roleReader": {
+    "type": "SQLite",
+    "config": {
+      "db": "dbs/rules.db"
+    }
+  },
+  "server": {
+    "port": 3020,
+    "roleEditorPort": 3021
+  }
+}

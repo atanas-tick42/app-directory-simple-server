@@ -1,0 +1,693 @@
+[
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Tests_Runner_JS",
+        "customProperties": {
+            "isTestApp": "true"
+        },
+        "details": {
+            "height": 400,
+            "hidden": true,
+            "left": 500,
+            "mode": "html",
+            "name": "GTF_Tests_Runner_JS_window",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/index.html",
+            "width": 600
+        },
+        "disabled": false,
+        "hidden": true,
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFwSURBVHhe7djNTcNAEAXgna2APhBc+LtCKVQQUgEdkLgDSuEMnBJRTmL0okHCSAR77d0Zs++7jDdSpLyX7DpyICIiIqJKiU43zt+XrV6Osrlc9coWdVaLBeislrszoK+z18VDkPgoEk70pY5/fQb8FX6I2RUwZXiYVQG/hW93+3u9HKz3GTDV/fkokfXm4mmpq45j4bc3zfPPzze/M2BEeF0m8VGAUXiwL8AwPCSfAX33WKqh4ed/BnxT4pv/4q6AkuHBVQGlw4ObAizCg4sCrMKD+V0gJTzes71u1rocxfQXkBpeYlzpcjSzAjyEB5MCvISH4gWkhIcc4aFoAanhcypWgMfwUKQAr+EhewGew0PWAryHh2wFnL4tbr2Hh2wFfFw1LxKlE9RbeMi6BQ6PukQO/9k9hofshyBK2LX7O4/hIXsBgO2gl+4UKcAzFqCzWixAZ7VYgM5qJT8VtjbVU2luAZ3Vqr4AIiIiIqpTCJ8YfwH0UFUFMgAAAABJRU5ErkJggg==",
+        "ignoreSaveOnClose": true,
+        "name": "GTF_Tests_Runner_JS",
+        "title": "GTF_Tests_Runner_JS",
+        "type": "window"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Glue_Isolated_Support",
+        "details": {
+            "height": 500,
+            "left": 100,
+            "mode": "tab",
+            "name": "GlueDummy_window",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/dummy/dummyGlue.html",
+            "width": 500,
+            "processAffinity": {
+                "dedicatedProcess": true
+            }
+        },
+        "disabled": false,
+        "hidden": false,
+        "ignoreSaveOnClose": true,
+        "name": "GTF_Glue_Isolated_Support",
+        "title": "GTF_Glue_Isolated_Support",
+        "type": "window"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": false,
+        "caption": "GTFUI",
+        "customProperties": {
+            "isGTFUI": "true"
+        },
+        "details": {
+            "height": 950,
+            "isSticky": false,
+            "left": 100,
+            "mode": "html",
+            "name": "GTFUI_window",
+            "top": 50,
+            "url": "http://localhost:7776/ui/index.html",
+            "width": 1000,
+            "processAffinity": {
+                "dedicatedProcess": true
+            }
+        },
+        "disabled": false,
+        "hidden": true,
+        "ignoreSaveOnClose": true,
+        "name": "GTFUI",
+        "title": "GTFUI",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": false,
+        "caption": "GTF_Canvas_Proxy",
+        "customProperties": {
+            "isCanvasProxy": "true"
+        },
+        "details": {
+            "height": 500,
+            "hidden": true,
+            "left": 100,
+            "name": "CanvasProxy_window",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/canvas/proxy.html",
+            "width": 500
+        },
+        "disabled": false,
+        "hidden": true,
+        "ignoreSaveOnClose": true,
+        "name": "GTF_Canvas_Proxy",
+        "title": "GTF_Canvas_Proxy",
+        "type": "window"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Isolated",
+        "customProperties": {
+            "isCanvasDummy": "true",
+            "includeInCanvas": true
+        },
+        "details": {
+            "height": 500,
+            "left": 100,
+            "name": "GTF_Canvas_Isolated",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/dummy/dummy.html",
+            "width": 500
+        },
+        "disabled": false,
+        "hidden": false,
+        "ignoreSaveOnClose": true,
+        "name": "GTF_Canvas_Isolated",
+        "title": "GTF_Canvas_Isolated",
+        "type": "window"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_3_App_Activity",
+        "customProperties": {
+            "clientContextAware": "true"
+        },
+        "details": {
+            "activityType": "GTF_Canvas_3_App_Activity",
+            "layout": {
+                "cellSize": 5,
+                "mode": "percents"
+            },
+            "owner": {
+                "height": 3,
+                "left": 1,
+                "name": "GTF_Canvas_Controller",
+                "top": 1,
+                "type": "GTF_Canvas_Controller",
+                "width": 3
+            },
+            "windows": [
+                {
+                    "height": 8,
+                    "left": 5,
+                    "name": "GTF_Canvas_Support",
+                    "top": 0,
+                    "type": "GTF_Canvas_Support",
+                    "width": 6
+                }
+            ]
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_3_App_Activity",
+        "title": "GTF_Canvas_3_App_Activity",
+        "type": "activity",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Canvas_Controller_Integrated"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Controller_Integrated",
+        "details": {
+            "name": "GTF_Canvas_Controller_Integrated",
+            "url": "http://localhost:7776/web-apps/canvas/controller.html",
+            "processAffinity": {
+                "dedicatedProcess": true
+            }
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Controller_Integrated",
+        "title": "GTF_Canvas_Controller_Integrated",
+        "type": "window",
+        "version": "GTF",
+        "customProperties":{
+            "includeInCanvas":true
+        }
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Canvas_Controller"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Controller",
+        "details": {
+            "name": "GTF_Canvas_Controller",
+            "url": "http://localhost:7776/web-apps/canvas/controller.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Controller",
+        "title": "GTF_Canvas_Controller",
+        "type": "window",
+        "version": "GTF",
+        "customProperties":{
+            "includeInCanvas":true
+        }
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Canvas_Support"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support",
+        "details": {
+            "name": "GTF_Canvas_Support",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support",
+        "title": "GTF_Canvas_Support",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_One",
+        "details": {
+            "name": "GTF_Canvas_Support_One",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_One",
+        "title": "GTF_Canvas_Support_One",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Two",
+        "details": {
+            "name": "GTF_Canvas_Support_Two",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Two",
+        "title": "GTF_Canvas_Support_Two",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Three",
+        "details": {
+            "name": "GTF_Canvas_Support_Three",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Three",
+        "title": "GTF_Canvas_Support_Three",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Four",
+        "details": {
+            "name": "GTF_Canvas_Support_Four",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Four",
+        "title": "GTF_Canvas_Support_Four",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Five",
+        "details": {
+            "name": "GTF_Canvas_Support_Five",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Five",
+        "title": "GTF_Canvas_Support_Five",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Six",
+        "details": {
+            "name": "GTF_Canvas_Support_Six",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Six",
+        "title": "GTF_Canvas_Support_Six",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Seven",
+        "details": {
+            "name": "GTF_Canvas_Support_Seven",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Seven",
+        "title": "GTF_Canvas_Support_Seven",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Eight",
+        "details": {
+            "name": "GTF_Canvas_Support_Eight",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Eight",
+        "title": "GTF_Canvas_Support_Eight",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Nine",
+        "details": {
+            "name": "GTF_Canvas_Support_Nine",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Nine",
+        "title": "GTF_Canvas_Support_Nine",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Ten",
+        "details": {
+            "name": "GTF_Canvas_Support_Ten",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Ten",
+        "title": "GTF_Canvas_Support_Ten",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Eleven",
+        "details": {
+            "name": "GTF_Canvas_Support_Eleven",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Eleven",
+        "title": "GTF_Canvas_Support_Eleven",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Twelve",
+        "details": {
+            "name": "GTF_Canvas_Support_Twelve",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Twelve",
+        "title": "GTF_Canvas_Support_Twelve",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Thirteen",
+        "details": {
+            "name": "GTF_Canvas_Support_Thirteen",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Thirteen",
+        "title": "GTF_Canvas_Support_Thirteen",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF_Canvas_Support_Fourteen",
+        "details": {
+            "name": "GTF_Canvas_Support_Fourteen",
+            "url": "http://localhost:7776/web-apps/canvas/support.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Canvas_Support_Fourteen",
+        "title": "GTF_Canvas_Support_Fourteen",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Tests_Support_JS",
+        "customProperties": {
+            "isSupport": "true"
+        },
+        "details": {
+            "height": 400,
+            "hidden": true,
+            "left": 500,
+            "mode": "html",
+            "name": "TestRunnerSupport_window",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 600
+        },
+        "disabled": false,
+        "hidden": true,
+        "icon": "https://glue42.com/wp-content/themes/easyblog/images/g4-logo.svg",
+        "name": "GTF_Tests_Support_JS",
+        "title": "GTF_Tests_Support_JS",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": false
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Test_Layout_Support",
+        "customProperties": {
+            "isSupport": "true"
+        },
+        "details": {
+            "height": 400,
+            "left": 500,
+            "mode": "html",
+            "name": "LayoutSupport_window",
+            "top": 50,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 600
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Test_Layout_Support",
+        "title": "GTF_Tests_Support_JS",
+        "type": "window"
+    },
+    {
+        "allowMultiple": true,
+        "caption": "GTF Activity",
+        "customProperties": {
+            "clientContextAware": "true",
+            "isTestAct": "true"
+        },
+        "details": {
+            "activityType": "GTF_Activity",
+            "layout": {
+                "cellSize": 5,
+                "mode": "percents"
+            },
+            "owner": {
+                "height": 8,
+                "left": 0,
+                "name": "GTF_Activity_Owner",
+                "top": 0,
+                "type": "GTF_Activity_Owner",
+                "width": 5
+            },
+            "saveOwnerOnly": false,
+            "windows": [
+                {
+                    "height": 8,
+                    "left": 5,
+                    "name": "GTF_Activity_Support",
+                    "top": 0,
+                    "type": "GTF_Activity_Support",
+                    "width": 6
+                }
+            ]
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity",
+        "title": "GTF Activity",
+        "type": "activity",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Owner"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Owner",
+        "details": {
+            "name": "GTFOwner_window",
+            "url": "http://localhost:7776/web-apps/index.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Owner",
+        "title": "GTF_Activity_Owner",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Support"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Support",
+        "details": {
+            "name": "GTFActivityWindow_window",
+            "url": "http://localhost:7776/web-apps/support/index.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Support",
+        "title": "GTF_Activity_Support",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "allowMultiple": false,
+        "caption": "GTF Activity Two",
+        "customProperties": {
+            "clientContextAware": "true"
+        },
+        "details": {
+            "activityType": "GTF_Activity_Single_App",
+            "layout": {
+                "cellSize": 5,
+                "mode": "percents"
+            },
+            "owner": {
+                "height": 3,
+                "left": 1,
+                "name": "GTF_Activity_Single_Owner",
+                "top": 1,
+                "type": "GTF_Activity_Single_Owner",
+                "width": 3
+            },
+            "saveOwnerOnly": false
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Single_App",
+        "title": "GTF Activity Two",
+        "type": "activity",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Single_Owner"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Single_Owner",
+        "details": {
+            "name": "GTFOwnerTwo_window",
+            "url": "http://localhost:7776/web-apps/support/index.html"
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Single_Owner",
+        "title": "GTF_Activity_Single_Owner",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Free_Single"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Free_Single",
+        "details": {
+            "height": 430,
+            "left": 42,
+            "name": "GTFActivitySingleWindow_window",
+            "top": 42,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 430
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Free_Single",
+        "title": "GTF_Activity_Free_Single",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Layout_Support_One"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Layout_Support_One",
+        "details": {
+            "height": 430,
+            "left": 42,
+            "name": "GTFActivityLayoutWindowOne_window",
+            "top": 42,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 430
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Layout_Support_One",
+        "title": "GTF_Activity_Layout_Support_One",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Layout_Support_Two"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Layout_Support_Two",
+        "details": {
+            "height": 430,
+            "left": 42,
+            "name": "GTFActivityLayoutWindowTwo_window",
+            "top": 42,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 430
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Layout_Support_Two",
+        "title": "GTF_Activity_Layout_Support_Two",
+        "type": "window",
+        "version": "GTF"
+    },
+    {
+        "activityTarget": {
+            "enabled": true,
+            "windowType": "GTF_Activity_Layout_Support_Three"
+        },
+        "allowMultiple": true,
+        "caption": "GTF_Activity_Layout_Support_Three",
+        "details": {
+            "height": 430,
+            "left": 42,
+            "name": "GTFActivityLayoutWindowThree_window",
+            "top": 42,
+            "url": "http://localhost:7776/web-apps/support/index.html",
+            "width": 430
+        },
+        "disabled": false,
+        "hidden": true,
+        "name": "GTF_Activity_Layout_Support_Three",
+        "title": "GTF_Activity_Layout_Support_Three",
+        "type": "window",
+        "version": "GTF"
+    }
+]

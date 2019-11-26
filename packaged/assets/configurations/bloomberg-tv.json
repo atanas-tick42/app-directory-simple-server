@@ -1,0 +1,19 @@
+[{
+    "title": "Bloomberg TV",
+    "type": "window",
+    "name": "bloombergTV",
+    "icon": "http://cdn.marketplaceimages.windowsphone.com/v8/images/e6b2161e-103e-4073-998c-ce20a5bcedf0?imageType=ws_icon_medium",
+    "details": {
+        "url": "https://www.youtube.com/tv#/watch/video/control?v=dp8PhLsUcFE&resume",
+        "height": 200,
+        "width": 300,
+        "left": 100,
+        "top": 100,
+        "mode": "tab",
+        "title": "Bloomberg TV",
+        "allowCollapse": false
+    },
+    "customProperties": {
+        "snapToEdge": false
+    }
+}]

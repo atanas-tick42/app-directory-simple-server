@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Vanilla Client List",
+        "type": "window",
+        "name": "vanillaclientlist",
+        "icon": "http://localhost:22080/resources/icons/client-list.ico",
+        "hidden": false,
+        "details": {
+            "url": "http://localhost:22080/vanilla-demos/client-list/",
+            "top": 250,
+            "left": 400,
+            "height": 640,
+            "width": 560,
+            "mode": "tab",
+            "title": "Vanilla Client List"
+        }
+    },
+    {
+        "title": "Vanilla Client Portfolio",
+        "type": "window",
+        "name": "vanillaclientportfolio",
+        "icon": "http://localhost:22080/resources/icons/client-portfolio.ico",
+        "hidden": false,
+        "details": {
+            "url": "http://localhost:22080/vanilla-demos/client-portfolio/",
+            "top": 250,
+            "left": 400,
+            "height": 640,
+            "width": 560,
+            "mode": "tab",
+            "title": "Vanilla Client Portfolio"
+        }
+    },
+    {
+        "title": "Vanilla Client List 🔗",
+        "type": "window",
+        "name": "channelsvanillaclientlist",
+        "icon": "http://localhost:22080/resources/icons/client-list.ico",
+        "hidden": true,
+        "details": {
+            "url": "http://localhost:22080/vanilla-demos/client-list/",
+            "top": 250,
+            "left": 400,
+            "height": 640,
+            "width": 560,
+            "mode": "tab",
+            "title": "Vanilla Client List",
+            "allowChannels": true
+        },
+        "customProperties": {
+            "useChannels": true
+        }
+    },
+    {
+        "title": "Vanilla Client Portfolio 🔗",
+        "type": "window",
+        "name": "channelsvanillaclientportfolio",
+        "icon": "http://localhost:22080/resources/icons/client-portfolio.ico",
+        "hidden": true,
+        "details": {
+            "url": "http://localhost:22080/vanilla-demos/client-portfolio/",
+            "top": 250,
+            "left": 400,
+            "height": 640,
+            "width": 560,
+            "mode": "tab",
+            "title": "Vanilla Client Portfolio",
+            "allowChannels": true
+        },
+        "customProperties": {
+            "useChannels": true
+        }
+    }
+]

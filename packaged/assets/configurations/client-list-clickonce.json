@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Client List - ClickOnce",
+        "type": "clickonce",
+        "name": "cl-clickonce",
+        "hidden": false,
+        "details": {
+            "url": "http://enterprise.glue42.com/install/enterprise/demos/ClickOnce/ClickOnceClientProfileDemo.application",
+            "width": 1000,
+            "height": 400
+        },
+        "customProperties": {
+            "includeInCanvas": true,
+            "appManagerOrder": 2
+        }
+    }
+]

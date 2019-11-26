@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Role Editor</title>
+  <link rel="stylesheet" href="../t42bootstrap.bundle.css">
+  <style>
+    .app {
+      cursor: pointer;
+      user-select:none;
+      transition: background-color 0.5s ease-out;
+    }
+
+    .search::after {
+      /* font-size: 20px!important; */
+      /* display: none; */
+      display: block;
+      content: 'X';
+      position: absolute;
+      right: 2px;
+      top: 50%;
+      margin-top: -50%;
+
+    }
+
+    .search:placeholder-shown::after {
+      /* font-size: 13px!important; */
+      display: none;
+    }
+
+    .apps {
+      max-height: 345px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+
+<body class="">
+  <nav class="navbar navbar-light bg-light sticky-top">
+    <div class="navbar-brand h1">
+        Apps for role editor
+    </div>
+    <div class="nav-item">
+
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <a href="../user-roles-editor/" class="btn btn-outline-primary">Users' roles</a>
+    </form>
+  </nav>
+  <div class="container mt-3">
+    <ul class="roles">
+      <li class="d-none role row jumbotron pt-4">
+        <div class="col-12 mb-4 font-weight-bold text-capitalize text-center align-middle font-weight-bold role-name d-flex flex-column justify-content-center">
+
+        </div>
+        <div class="col-6 mt-2">
+          <label for="">Available apps</label>
+          <div>
+            <input class="form-control search" type="text" placeholder="Search available app">
+          </div>
+          <ul class="list-group apps available">
+            <li class="list-group-item app">
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 mt-2">
+            <label for="">Assigned apps</label>
+          <div>
+            <input class="form-control search" type="text" placeholder="Search assigned app">
+          </div>
+          <ul class="list-group apps assigned">
+            <li class="list-group-item app">
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "MorningStar",
+    "type": "window",
+    "name": "morningstar",
+    "icon": "https://media.glassdoor.com/sqll/3299/morningstar-squarelogo.png",
+    "details": {
+      "url": "https://morningstar.com",
+      "height": 640,
+      "width": 560,
+      "left": 100,
+      "top": 100,
+      "mode": "flat",
+      "injectionIntegration": true
+    },
+    "customProperties": {
+      "appManagerOrder": -1
+    }
+  }
+]
